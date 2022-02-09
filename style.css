@@ -1,0 +1,179 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#fff;  
+    font-family: 'Arial';  
+}  
+
+.login{  
+        width: 300px;  
+        overflow: hidden;
+        margin: auto;
+        margin-top: 165px;
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #7949d3; 
+        border-radius: 15px;
+} 
+
+.reg{  
+    width: 300px;  
+    overflow: hidden;  
+    margin: auto;
+    margin-top: 175px;
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #7949d3; 
+    border-radius: 15px;
+} 
+
+.card{ 
+    width: 18%;
+    overflow: hidden;  
+    margin: 5px 23px 0px 5px;  
+    padding: 50px;
+    float: right;
+    background: #ffffff; 
+    border-radius: 3px;
+    display: block;
+} 
+
+.task{
+    width: 72%;
+    height: 476px;
+    overflow: hidden;  
+    margin: 5px 22px 0px 5px;  
+    padding: 50px;
+    float: right;
+    background: #ffffff; 
+    border-radius: 3px;
+}
+
+.bar{
+    width: 900%;
+    overflow: hidden;  
+    margin-top: 2px;
+    padding: 25px;
+    float: right;
+    background: #31e792; 
+    border-radius: 3px;
+}
+
+.nav{
+    width: 15%;
+    height: 633px;
+    overflow: hidden;  
+    margin: auto;
+    margin-top: 4px;
+    padding: 25px;
+    float: left;
+    background: #31e792; 
+    border-radius: 2px;
+}
+
+.dash{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#8850f0;  
+    font-family: 'Arial';  
+} 
+
+h2{  
+    text-align: center;  
+    color: #000;  
+    padding: 5px;  
+    font-family: cursive;
+    font-size: 30px;
+}
+
+label{
+    color: #fff;
+}
+
+input, select{  
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #000;
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+            appearance: checkbox;
+    display: inline-block;
+    width: auto;
+}
+.bottom{
+    margin-top: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+input[type="date"]:focus, select:focus{
+    color: grey;
+}
+input[type="date"], select option { 
+    color: black; 
+}*/
+option:not[value]{
+    color: grey;
+}
+
+button{  
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 15px;  
+    padding-left: 7px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}  
+
+span{  
+    color: #fff;  
+    font-size: 17px; 
+    margin-top: 15px;
+}  
+
+.form-error{
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.form-error span{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.bottom a{  
+    color: #fff;
+    font-size: 13px;
+    float: right;
+    margin-top: 6px;
+    text-align: justify;
+}  
+
+.newUser{
+    text-align: center;
+    padding: 5px;
+}
+.newUser a{
+    color: #fff;
+    font-size: 13px;
+    margin-top: 6px;
+}

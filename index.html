@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>     
+    <div class="login">  
+        <h2>Login</h2>  
+        <form id="login" method="POST" action="#">
+            <div class = "field">
+                <input type="text" name="name" id="name" placeholder="Username">      
+                <input type="Password" name="password" id="password" placeholder="Password">    
+            </div>   
+            <div class="bottom">
+                <input type="checkbox" id="check">    
+                <span>Remember me</span>        
+                <a href="#">Forgot Password ?</a>
+            </div>   
+            <div class = "center">
+                <button name="login" type="button" id="login" onclick="userLogin()">Login</button> 
+            </div>         
+            <div class="newUser">
+                <a href="register.html">New? Register Here</a>
+            </div>
+        </form>     
+    </div> 
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>

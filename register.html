@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>     
+    <div class="reg">  
+        <h2>Register</h2>  
+        <form action="register.html" name="reg-form" onsubmit="return userRegisteration()" method="POST" >
+            <div>
+                <span class="form-error" id="error-name"></span>
+                <input type="text" name="rname" placeholder="Name" id= "name">
+                <span class="form-error" id="error-email"></span>
+                <input type="email" name="remail" placeholder="Email" id ="email">      
+                <span class="form-error" id="error-mobile"></span>
+                <input type="text" name="rmobile" placeholder="Mobile" id="mobile">
+                <span class="form-error" id="error-gender"></span>
+                <select name="rgender" id="gender">    
+                    <option value="0">Gender :</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    <option value="T">Transgender</option>
+                </select>
+                <span class="form-error" id="error-date"></span>
+                <input type="date" name="rdob" id="dob">    
+            </div>   
+
+            <div class = "center">
+                <button name="register" type="submit" id="register">Register</button> 
+            </div>         
+            <div class="newUser">
+                <a href="index.html">Already a user? Login</a>
+            </div>
+        </form>   
+    </div>   
+    <script src="app.js"></script>
+</body>
+</html>
+
+
